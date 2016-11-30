@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D3DA90F1B765B34007FABF8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3DA90E1B765B34007FABF8 /* AVFoundation.framework */; };
 		3D4FF4CC1B2DB34E00D976C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4FF4CB1B2DB34E00D976C3 /* AppDelegate.swift */; };
 		3D4FF4CE1B2DB34E00D976C3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3D4FF4CD1B2DB34E00D976C3 /* GameScene.sks */; };
 		3D4FF4D01B2DB34E00D976C3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4FF4CF1B2DB34E00D976C3 /* GameScene.swift */; };
@@ -15,6 +16,21 @@
 		3D4FF4D71B2DB34E00D976C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4FF4D61B2DB34E00D976C3 /* Images.xcassets */; };
 		3D4FF4DA1B2DB34E00D976C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D4FF4D81B2DB34E00D976C3 /* LaunchScreen.xib */; };
 		3D4FF4E61B2DB34E00D976C3 /* Fire_BirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4FF4E51B2DB34E00D976C3 /* Fire_BirdTests.swift */; };
+		3D4FF4F81B30D44800D976C3 /* Eruption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4FF4F71B30D44800D976C3 /* Eruption.swift */; };
+		3D50145B1BBB39CF00ED87FF /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D50145A1BBB39CF00ED87FF /* GoogleMobileAds.framework */; };
+		3D53919C1B337A36005AC57D /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D53919B1B337A36005AC57D /* Coin.swift */; };
+		3D56D6F11B9938190018BA47 /* stoneage.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D56D6F01B9937F50018BA47 /* stoneage.ttf */; };
+		3D56D6F31B993A610018BA47 /* D3Stonism.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D56D6F21B993A5B0018BA47 /* D3Stonism.ttf */; };
+		3D7EE24A1B49811C00C89E9F /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7EE2491B49811C00C89E9F /* iAd.framework */; };
+		3DA0270C1B3EDD3600DD50D1 /* flap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3DA0270B1B3EDD3600DD50D1 /* flap.wav */; };
+		3DA027101B3EE16400DD50D1 /* move.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3DA0270F1B3EE16400DD50D1 /* move.wav */; };
+		3DA027141B3EE51900DD50D1 /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3DA027131B3EE51900DD50D1 /* coin.wav */; };
+		3DA027161B3EEF6B00DD50D1 /* vol1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3DA027151B3EEF6B00DD50D1 /* vol1.wav */; };
+		3DA0271A1B3F498200DD50D1 /* vol2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3DA027191B3F498200DD50D1 /* vol2.wav */; };
+		3DA0271C1B3F498D00DD50D1 /* endgame.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3DA0271B1B3F498D00DD50D1 /* endgame.wav */; };
+		3DA0271E1B4055AA00DD50D1 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA0271D1B4055AA00DD50D1 /* GameKit.framework */; };
+		3DBCE1D01B8E1310002A08DB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DBCE1CF1B8E1310002A08DB /* StoreKit.framework */; };
+		3DEC1A481B59DEEE00EA69CD /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC1A471B59DEEE00EA69CD /* cross.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D3DA90E1B765B34007FABF8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		3D4FF4C61B2DB34E00D976C3 /* Fire Bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fire Bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D4FF4CA1B2DB34E00D976C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D4FF4CB1B2DB34E00D976C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +57,21 @@
 		3D4FF4DF1B2DB34E00D976C3 /* Fire BirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fire BirdTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D4FF4E41B2DB34E00D976C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D4FF4E51B2DB34E00D976C3 /* Fire_BirdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fire_BirdTests.swift; sourceTree = "<group>"; };
+		3D4FF4F71B30D44800D976C3 /* Eruption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Eruption.swift; sourceTree = "<group>"; };
+		3D50145A1BBB39CF00ED87FF /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../Downloads/GoogleMobileAdsSdkiOS-7.5.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		3D53919B1B337A36005AC57D /* Coin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		3D56D6F01B9937F50018BA47 /* stoneage.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = stoneage.ttf; sourceTree = "<group>"; };
+		3D56D6F21B993A5B0018BA47 /* D3Stonism.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = D3Stonism.ttf; sourceTree = "<group>"; };
+		3D7EE2491B49811C00C89E9F /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		3DA0270B1B3EDD3600DD50D1 /* flap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = flap.wav; sourceTree = "<group>"; };
+		3DA0270F1B3EE16400DD50D1 /* move.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = move.wav; sourceTree = "<group>"; };
+		3DA027131B3EE51900DD50D1 /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin.wav; sourceTree = "<group>"; };
+		3DA027151B3EEF6B00DD50D1 /* vol1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = vol1.wav; sourceTree = "<group>"; };
+		3DA027191B3F498200DD50D1 /* vol2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = vol2.wav; sourceTree = "<group>"; };
+		3DA0271B1B3F498D00DD50D1 /* endgame.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = endgame.wav; sourceTree = "<group>"; };
+		3DA0271D1B4055AA00DD50D1 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		3DBCE1CF1B8E1310002A08DB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3DEC1A471B59DEEE00EA69CD /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +79,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D50145B1BBB39CF00ED87FF /* GoogleMobileAds.framework in Frameworks */,
+				3DBCE1D01B8E1310002A08DB /* StoreKit.framework in Frameworks */,
+				3D3DA90F1B765B34007FABF8 /* AVFoundation.framework in Frameworks */,
+				3D7EE24A1B49811C00C89E9F /* iAd.framework in Frameworks */,
+				3DA0271E1B4055AA00DD50D1 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +100,11 @@
 		3D4FF4BD1B2DB34E00D976C3 = {
 			isa = PBXGroup;
 			children = (
+				3D50145A1BBB39CF00ED87FF /* GoogleMobileAds.framework */,
+				3DBCE1CF1B8E1310002A08DB /* StoreKit.framework */,
+				3D3DA90E1B765B34007FABF8 /* AVFoundation.framework */,
+				3D7EE2491B49811C00C89E9F /* iAd.framework */,
+				3DA0271D1B4055AA00DD50D1 /* GameKit.framework */,
 				3D4FF4C81B2DB34E00D976C3 /* Fire Bird */,
 				3D4FF4E21B2DB34E00D976C3 /* Fire BirdTests */,
 				3D4FF4C71B2DB34E00D976C3 /* Products */,
@@ -89,6 +131,8 @@
 				3D4FF4D61B2DB34E00D976C3 /* Images.xcassets */,
 				3D4FF4D81B2DB34E00D976C3 /* LaunchScreen.xib */,
 				3D4FF4C91B2DB34E00D976C3 /* Supporting Files */,
+				3D4FF4F71B30D44800D976C3 /* Eruption.swift */,
+				3D53919B1B337A36005AC57D /* Coin.swift */,
 			);
 			path = "Fire Bird";
 			sourceTree = "<group>";
@@ -96,6 +140,15 @@
 		3D4FF4C91B2DB34E00D976C3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3D56D6F21B993A5B0018BA47 /* D3Stonism.ttf */,
+				3D56D6F01B9937F50018BA47 /* stoneage.ttf */,
+				3DEC1A471B59DEEE00EA69CD /* cross.png */,
+				3DA0271B1B3F498D00DD50D1 /* endgame.wav */,
+				3DA027191B3F498200DD50D1 /* vol2.wav */,
+				3DA027151B3EEF6B00DD50D1 /* vol1.wav */,
+				3DA027131B3EE51900DD50D1 /* coin.wav */,
+				3DA0270F1B3EE16400DD50D1 /* move.wav */,
+				3DA0270B1B3EDD3600DD50D1 /* flap.wav */,
 				3D4FF4CA1B2DB34E00D976C3 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -162,11 +215,19 @@
 		3D4FF4BE1B2DB34E00D976C3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Jan Anthony Miranda";
 				TargetAttributes = {
 					3D4FF4C51B2DB34E00D976C3 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = H88S7UC69P;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
 					};
 					3D4FF4DE1B2DB34E00D976C3 = {
 						CreatedOnToolsVersion = 6.2;
@@ -198,9 +259,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D56D6F31B993A610018BA47 /* D3Stonism.ttf in Resources */,
+				3D56D6F11B9938190018BA47 /* stoneage.ttf in Resources */,
 				3D4FF4DA1B2DB34E00D976C3 /* LaunchScreen.xib in Resources */,
+				3DA0271C1B3F498D00DD50D1 /* endgame.wav in Resources */,
+				3DA0270C1B3EDD3600DD50D1 /* flap.wav in Resources */,
 				3D4FF4D71B2DB34E00D976C3 /* Images.xcassets in Resources */,
+				3DA027161B3EEF6B00DD50D1 /* vol1.wav in Resources */,
+				3DA027141B3EE51900DD50D1 /* coin.wav in Resources */,
+				3DA0271A1B3F498200DD50D1 /* vol2.wav in Resources */,
 				3D4FF4CE1B2DB34E00D976C3 /* GameScene.sks in Resources */,
+				3DA027101B3EE16400DD50D1 /* move.wav in Resources */,
+				3DEC1A481B59DEEE00EA69CD /* cross.png in Resources */,
 				3D4FF4D51B2DB34E00D976C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +292,8 @@
 				3D4FF4D01B2DB34E00D976C3 /* GameScene.swift in Sources */,
 				3D4FF4D21B2DB34E00D976C3 /* GameViewController.swift in Sources */,
 				3D4FF4CC1B2DB34E00D976C3 /* AppDelegate.swift in Sources */,
+				3D53919C1B337A36005AC57D /* Coin.swift in Sources */,
+				3D4FF4F81B30D44800D976C3 /* Eruption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,9 +416,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Jan/Downloads/GoogleMobileAdsSdkiOS-7.5.0",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Fire Bird/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -354,9 +438,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Jan/Downloads/GoogleMobileAdsSdkiOS-7.5.0",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Fire Bird/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -413,6 +509,7 @@
 				3D4FF4EB1B2DB34E00D976C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D4FF4EC1B2DB34E00D976C3 /* Build configuration list for PBXNativeTarget "Fire BirdTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +518,7 @@
 				3D4FF4EE1B2DB34E00D976C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
